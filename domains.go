@@ -18,7 +18,7 @@ type DomainInfo struct {
 	DomainTotal   int `json:"domain_total,omitempty"`
 	AllTotal      int `json:"all_total,omitempty"`
 	MineTotal     int `json:"mine_total,omitempty"`
-	ShareTotal    int `json:"share_total,omitempty"`
+	ShareTotal    string `json:"share_total,omitempty"`
 	VipTotal      int `json:"vip_total,omitempty"`
 	IsMarkTotal   int `json:"ismark_total,omitempty"`
 	PauseTotal    int `json:"pause_total,omitempty"`
